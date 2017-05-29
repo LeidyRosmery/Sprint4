@@ -9,6 +9,36 @@
   <title>Document</title>
 </head>
 <body>
+      <header>
+          <nav class="navbar navbar-default ">
+            <div class="container-fluid">
+              <div class="navbar-header ">
+                <a href="#" class="navbar-brand">
+                  <img alt="Logo" src="assets/img/logo.png">
+                </a>
+                <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#navbar-1">
+                         <span class="sr-only">Menu</span> <!--cada span tipo icon bar es una rayita del menu hamburgueza-->
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                </button> <!--Menu hamburgueza en mobil-->
+
+                          <!--titulo del nav bar-->
+              </div>
+              <div class="navbar-collapse collapse " id="navbar-1">
+            <!--las clases navbar-collapse y collapse trabajan con media lo cual permite que sea visible o no-->
+                                  <!--sirve esa clase para evitar problemas al tener un formulario dentro de un navbar-->
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#">Viaja</a></li>
+                      <li><a href="#">Conduce</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Inicio</a></li>
+                   </ul>
+              </div>
+             </div>
+          </nav>
+      </header>
+
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js">
 </script>
 <script type="text/javascript" src="assets/js/app.js">
